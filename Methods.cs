@@ -7,8 +7,8 @@ int returnInteger() // Rastgele bir sayı üretip bu sayının 2'ye bölümünde
 {
     Random rnd = new Random();
     int randomNumber = rnd.Next(0, 100);
-    int bolum = randomNumber % 2;
-    return bolum;
+    int remainder = randomNumber % 2;
+    return remainder;
 }
 
 int multiply(int a, int b) // Kullanıcıdan alınan 2 sayının çarpımını döndüren method
