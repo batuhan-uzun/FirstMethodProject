@@ -21,13 +21,13 @@ void welcome(string name, string surname) // Kullanıcıdan isim ve soyisim bilg
     Console.WriteLine($"Hoş Geldiniz {name} {surname}");
 }
 
-sayHello();
-Console.WriteLine("Rastgele üretilen sayının 2'ye bölümünden kalan: " + returnInteger());
+sayHello(); // Şarkı sözü yazdıran methodu çağırıyoruz
+Console.WriteLine("Rastgele üretilen sayının 2'ye bölümünden kalan: " + returnInteger()); // Rastgele üretilen sayının bölümünden kalan methodu çağırıyoruz
 Console.WriteLine("Lütfen çarpmak istediğiniz 2 sayı giriniz:");
 int first = Convert.ToInt32(Console.ReadLine());
 int second = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Yazdığınız sayıların çarpımı: " + multiply(first,second));
+Console.WriteLine("Yazdığınız sayıların çarpımı: " + multiply(first,second)); // Kullanıcıdan alınan 2 sayıyla çarpma işlemi yapan methodu çağırıyoruz
 Console.WriteLine("Lütfen isim ve soyisminizi yazınız");
 string firstName = Console.ReadLine();
 string lastName = Console.ReadLine();
-welcome(firstName, lastName);
+welcome(firstName, lastName); // Kullanıcıya hoş geldin yazdıran methodu çağırıyoruz
