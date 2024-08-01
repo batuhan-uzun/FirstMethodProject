@@ -1,4 +1,4 @@
-﻿void sayHello() // Şarkı sözü yazdıran method
+﻿void lyrics() // Şarkı sözü yazdıran method
 {
     Console.WriteLine("So burn down this room");
 }
@@ -21,7 +21,7 @@ void welcome(string name, string surname) // Kullanıcıdan isim ve soyisim bilg
     Console.WriteLine($"Hoş Geldiniz {name} {surname}");
 }
 
-sayHello(); // Şarkı sözü yazdıran methodu çağırıyoruz
+lyrics(); // Şarkı sözü yazdıran methodu çağırıyoruz
 Console.WriteLine("Rastgele üretilen sayının 2'ye bölümünden kalan: " + returnInteger()); // Rastgele üretilen sayının bölümünden kalan methodu çağırıyoruz
 Console.WriteLine("Lütfen çarpmak istediğiniz 2 sayı giriniz:");
 int first = Convert.ToInt32(Console.ReadLine());
